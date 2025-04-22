@@ -1,0 +1,17 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "prettier.documentSelectors": ["**/*.{js,jsx,ts,tsx,json,css,scss,md}"],
+    "typescript.format.enable": false,
+    "javascript.format.enable": false,
+    "javascript.validate.enable": true,
+    "editor.tabSize": 4,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.useFlatConfig": true,
+    "eslint.options": {
+        "overrideConfigFile": "eslint.config.ms"
+    }
+}
